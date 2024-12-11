@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:amone": "npm run dev --workspace=amone",
+    "build:amone": "npm run build --workspace=amone"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces":[
+    "packages/*",
+    "sites/*"
+  ]
+}

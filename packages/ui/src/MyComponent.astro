@@ -1,0 +1,15 @@
+---
+// Write your component code in this file!
+interface Props {
+	prefix?: string;
+	class?:string
+}
+
+const {class: className} = Astro.props
+---
+
+<div class:list={["text-4xl", className]} >{Astro.props.prefix} My special component ishan</div>
+
+<style scoped>
+
+</style>
